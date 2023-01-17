@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.regrootblock {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+.regroot {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(250, 250, 250);
+  display: flex;
+}
+
+.leftinner {
+  margin: auto;
+  color: white;
+  width: 100%;
+}
+
+.rightinner {
+  margin: auto;
+  width: 100%;
+}
+
+.lefttext {
+  margin-top: 20px;
+}
+
+.regform {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reginput {
+  height: 34px;
+  padding-left: 10px;
+  margin-top: 8px;
+  background-color: rgb(242, 242, 242);
+  border-style: none;
+}
+
+.rightbtn {
+  color: white;
+  background-color: rgb(255, 73, 61);
+  border-radius: 15px;
+  width: 128px;
+  height: 34px;
+  border-style: none;
+  margin-top: 20px;
+}
+
+.leftbtn {
+  color: white;
+  background-color: white;
+  border-radius: 15px;
+  width: 128px;
+  height: 34px;
+  border: solid 2px;
+  background-color: rgb(255, 73, 61);
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 561px) {
+  .regblock {
+    max-width: 720px;
+    height: 400px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 30px #C2C2C2;
+    margin: auto;
+    border-radius: 15px;
+  }
+  .rightblock {
+    width: 50%;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .leftblock {
+    width: 50%;
+    background-color: rgb(255, 73, 61);
+    display: flex;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .regblock {
+    max-width: 380px;
+    min-width: 300px;
+    height: 675px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 30px #C2C2C2;
+    margin: auto;
+    border-radius: 15px;
+    flex-direction: column;
+  }
+  .rightblock {
+    height: 50%;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .leftblock {
+    height: 50%;
+    background-color: rgb(255, 73, 61);
+    display: flex;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}/*# sourceMappingURL=reglogstyle.css.map */
